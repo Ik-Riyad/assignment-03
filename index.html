@@ -96,7 +96,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="">
         <!-- Services Section -->
         <section class="py-12 px-4 md:p-36">
             <h2 class="text-2xl md:text-4xl font-semibold text-accent pb-12">Services</h2>
@@ -260,37 +260,60 @@
         <!-- Arrival & Offers Section -->
         <section class="py-12 px-4 md:p-36">
             <h2 class="text-2xl md:text-4xl font-semibold text-accent pb-12">Arrival & Offers</h2>
-            
-             <div class="grid grid-cols-1 md:grid-cols-7 gap-5">
-            <!-- Daawat card -->
-            <div class="bg-daawatbg py-6 px-5 md:py-14 md:px-10 rounded-3xl relative md:col-span-4">
-                <div class="">
-                    <img class="w-28 h-10 md:w-fit md:h-fit" src="c2-assets/dawat-logo.png" alt="">
-                    <button
-                        class="bg-daawat py-2 px-5  md:py-3 md:px-8 rounded-xl border-2 border-daawat hover:bg-transparent hover:border-white transition text-sm md:text-2xl text-white mt-5 mb-4 md:mt-8 md:mb-7">Cook
-                        Exotic Dishes</button>
-                    <h1 class="text-xl md:text-4xl text-white">UP to <span class="font-bold">20% OFF</span></h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-7 gap-5">
+                <!-- Daawat card -->
+                <div class="bg-daawatbg py-6 px-5 md:py-14 md:px-10 rounded-3xl relative md:col-span-4">
+                    <div class="">
+                        <img class="w-28 h-10 md:w-fit md:h-fit" src="c2-assets/dawat-logo.png" alt="">
+                        <button
+                            class="bg-daawat py-2 px-5  md:py-3 md:px-8 rounded-xl border-2 border-daawat hover:bg-transparent hover:border-white transition text-sm md:text-2xl text-white mt-5 mb-4 md:mt-8 md:mb-7">Cook
+                            Exotic Dishes</button>
+                        <h1 class="text-xl md:text-4xl text-white">UP to <span class="font-bold">20% OFF</span></h1>
+                    </div>
+                    <div class="absolute bottom-16 right-0 md:bottom-0 md:right-0 h-24 w-40 md:h-fit md:w-fit">
+                        <img src="c2-assets/dawat-mock-up.png" alt="">
+                    </div>
                 </div>
-                <div class="absolute bottom-16 right-0 md:bottom-0 md:right-0 h-24 w-40 md:h-fit md:w-fit">
-                    <img src="c2-assets/dawat-mock-up.png" alt="">
+                <!-- India Gate Card -->
+                <div class="bg-indiagate pt-3 pb-6 px-5 md:pt-5 md:pb-9 md:px-10 rounded-3xl relative md:col-span-3">
+                    <div class="">
+                        <img class="w-16 h-16 md:w-fit md:h-fit" src="c2-assets/india-gate-logo.png" alt="">
+                        <button
+                            class="bg-indiagatebtn py-2 px-5  md:py-3 md:px-8 rounded-xl border-2 border-indiagatebtn hover:bg-transparent hover:border-white transition text-sm md:text-2xl text-white mt-2 mb-4 md:mt-4 md:mb-7">World’s
+                            No.1 Rice</button>
+                        <h1 class="text-xl md:text-4xl text-white">UP to <span class="font-bold">40% OFF</span></h1>
+                    </div>
+                    <div class="absolute bottom-6 right-3 md:bottom-2 md:right-4 h-40 w-28 md:h-fit md:w-fit">
+                        <img src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
                 </div>
             </div>
-            <!-- India Gate Card -->
-            <div class="bg-indiagate pt-3 pb-6 px-5 md:pt-5 md:pb-9 md:px-10 rounded-3xl relative md:col-span-3">
+        </section>
+
+        <!-- Grocery News -->
+        <section class=" mx-4 md:mx-36 md:px-24 md:py-14 bg-Secoundry rounded-3xl">
+            <div class="grid md:grid-cols-2 items-center text-center md:text-start">
+                <!-- Bucket img -->
+                <img class="mx-auto mt-8 mb-6 md:mx-0 w-60 md:w-fit" src="c2-assets/vegetable-busket.png" alt="">
+                <!-- News content -->
+            <div class="flex flex-col">
+                <h2 class="text-xl md:text-4xl font-semibold text-accent md:text-black">Get Grocery News!</h2>
+                <p class="text-base md:text-xl pt-6 pb-3 md:pt-5 md:pb-8">Exclusive training tips, ticks, product deals and more.</p>
                 <div class="">
-                    <img class="w-16 h-16 md:w-fit md:h-fit" src="c2-assets/india-gate-logo.png" alt="">
-                    <button
-                        class="bg-indiagatebtn py-2 px-5  md:py-3 md:px-8 rounded-xl border-2 border-indiagatebtn hover:bg-transparent hover:border-white transition text-sm md:text-2xl text-white mt-2 mb-4 md:mt-4 md:mb-7">World’s No.1 Rice</button>
-                    <h1 class="text-xl md:text-4xl text-white">UP to <span class="font-bold">40% OFF</span></h1>
+                    <input class="outline-none py-3 pl-3 pr-28 md:py-5 md:pl-5 md:pr-72 rounded-lg" type="text" placeholder="Enter email....">
                 </div>
-                <div class="absolute bottom-6 right-3 md:bottom-2 md:right-4 h-40 w-28 md:h-fit md:w-fit">
-                    <img src="c2-assets/india-gate-mock-up.png" alt="">
+                <div class=" mt-3 md:mt-9">
+                    <button
+                        class="bg-accent py-2 px-6 md:py-3 md:px-8 rounded-xl border-2 border-accent hover:bg-transparent hover:text-black transition text-base md:text-xl text-white">Subscribe</button>
                 </div>
             </div>
         </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="">
+
+    </footer>
 
 </body>
 
