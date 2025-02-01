@@ -40,6 +40,7 @@
                         daawat: '#63B76D',
                         indiagate: 'rgba(16, 40, 97, 1)',
                         indiagatebtn: '#2A4D97',
+                        pcolor: 'rgba(255, 255, 255, 0.7)'
                     },
                     fontFamily: {
                         'sora': ["Sora", "serif"],
@@ -292,27 +293,59 @@
         </section>
 
         <!-- Grocery News -->
-        <section class=" mx-4 md:mx-36 md:px-24 md:py-14 bg-Secoundry rounded-3xl">
+        <section class="relative mx-4 md:mx-36 md:px-24 py-10 md:py-14 bg-Secoundry rounded-3xl">
             <div class="grid md:grid-cols-2 items-center text-center md:text-start">
                 <!-- Bucket img -->
-                <img class="mx-auto mt-8 mb-6 md:mx-0 w-60 md:w-fit" src="c2-assets/vegetable-busket.png" alt="">
+                <img class="mx-auto mb-6 md:mx-0 w-60 md:w-fit" src="c2-assets/vegetable-busket.png" alt="">
                 <!-- News content -->
-            <div class="flex flex-col">
-                <h2 class="text-xl md:text-4xl font-semibold text-accent md:text-black">Get Grocery News!</h2>
-                <p class="text-base md:text-xl pt-6 pb-3 md:pt-5 md:pb-8">Exclusive training tips, ticks, product deals and more.</p>
-                <div class="">
-                    <input class="outline-none py-3 pl-3 pr-28 md:py-5 md:pl-5 md:pr-72 rounded-lg" type="text" placeholder="Enter email....">
+                <div class="flex flex-col">
+                    <h2 class="text-xl md:text-4xl font-semibold text-accent md:text-black">Get Grocery News!</h2>
+                    <p class="text-base md:text-xl pt-6 pb-3 md:pt-5 md:pb-8">Exclusive training tips, ticks, product
+                        deals and more.</p>
+                    <div class="">
+                        <input class="outline-none py-3 pl-3 pr-28 md:py-5 md:pl-5 md:pr-72 rounded-lg" type="text"
+                            placeholder="Enter email....">
+                    </div>
+                    <div class=" mt-3 md:mt-9">
+                        <button
+                            class="bg-accent py-2 px-6 md:py-3 md:px-8 rounded-xl border-2 border-accent hover:bg-transparent hover:text-black transition text-base md:text-xl text-white">Subscribe</button>
+                    </div>
                 </div>
-                <div class=" mt-3 md:mt-9">
-                    <button
-                        class="bg-accent py-2 px-6 md:py-3 md:px-8 rounded-xl border-2 border-accent hover:bg-transparent hover:text-black transition text-base md:text-xl text-white">Subscribe</button>
+            </div>
+        </section>
+    </main>
+    <footer class="-mt-64 bg-accent pt-72 px-5 md:pt-96 md:px-36 md:pb-32">
+        <div class="md:flex md:justify-between">
+            <!-- logo and content -->
+            <div class="">
+                <img class="w-24 md:w-fit" src="c2-assets/logo-footer.png" alt="">
+                <p class="md:text-lg text-pcolor pt-3 pb-9">Discover a world of treats, toys, and <br>
+                    essentials handpicked for your furry <br>
+                    friends</p>
+            </div>
+            <!-- Connect -->
+            <div class="">
+                <ul class="text-white md:text-xl space-y-5">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <!-- Social media -->
+            <div class="flex flex-col justify-center py-9">
+                <p class="text-white text-sm md:text-base pb-3">Follow Us</p>
+                <div class=" space-x-8 text-xl md:text-2xl">
+                    <a href="https://facebook.com" class="text-white"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com" class="text-white"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com" class="text-white"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtube.com" class="text-white"><i
+                            class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
         </div>
-        </section>
-    </main>
-    <footer class="">
-
     </footer>
 
 </body>
